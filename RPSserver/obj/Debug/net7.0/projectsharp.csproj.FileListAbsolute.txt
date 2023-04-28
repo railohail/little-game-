@@ -1,0 +1,15 @@
+/home/rail_hail/Downloads/RPSserver/bin/Debug/net7.0/projectsharp
+/home/rail_hail/Downloads/RPSserver/bin/Debug/net7.0/projectsharp.deps.json
+/home/rail_hail/Downloads/RPSserver/bin/Debug/net7.0/projectsharp.runtimeconfig.json
+/home/rail_hail/Downloads/RPSserver/bin/Debug/net7.0/projectsharp.dll
+/home/rail_hail/Downloads/RPSserver/bin/Debug/net7.0/projectsharp.pdb
+/home/rail_hail/Downloads/RPSserver/obj/Debug/net7.0/projectsharp.csproj.AssemblyReference.cache
+/home/rail_hail/Downloads/RPSserver/obj/Debug/net7.0/projectsharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/rail_hail/Downloads/RPSserver/obj/Debug/net7.0/projectsharp.AssemblyInfoInputs.cache
+/home/rail_hail/Downloads/RPSserver/obj/Debug/net7.0/projectsharp.AssemblyInfo.cs
+/home/rail_hail/Downloads/RPSserver/obj/Debug/net7.0/projectsharp.csproj.CoreCompileInputs.cache
+/home/rail_hail/Downloads/RPSserver/obj/Debug/net7.0/projectsharp.dll
+/home/rail_hail/Downloads/RPSserver/obj/Debug/net7.0/refint/projectsharp.dll
+/home/rail_hail/Downloads/RPSserver/obj/Debug/net7.0/projectsharp.pdb
+/home/rail_hail/Downloads/RPSserver/obj/Debug/net7.0/projectsharp.genruntimeconfig.cache
+/home/rail_hail/Downloads/RPSserver/obj/Debug/net7.0/ref/projectsharp.dll
