@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="RPSduel.MainWindow"
+        Title="RPSduel"
+        Width="600"
+        Height="600">
+	<Grid>
+		<Border BorderBrush="Black" BorderThickness="2">
+			<Grid Margin="2">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+
+				<Border Grid.Row="0" BorderBrush="Black" BorderThickness="1">
+					<Canvas x:Name="GameCanvas" Background="White" ClipToBounds="True">
+						<!-- Game objects will be rendered here -->
+					</Canvas>
+				</Border>
+
+				<TextBlock Grid.Row="1" x:Name="GameText" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" FontWeight="Bold" Margin="10"/>
+			</Grid>
+		</Border>
+	</Grid>
+</Window>

@@ -1,7 +1,7 @@
 ﻿using Avalonia;
 using System;
 
-namespace RPSduel;
+namespace RPSgame;
 
 class Program
 {
@@ -14,7 +14,7 @@ class Program
 
     // Avalonia configuration, don't remove; also used by visual designer.
     public static AppBuilder BuildAvaloniaApp()
-        => AppBuilder.Configure<App>()
+        => AppBuilder.Configure<RPSduel.App>()
             .UsePlatformDetect()
             .LogToTrace();
 }
