@@ -110,7 +110,7 @@ class Program
                 // Check for projectile collisions
                 for (int j = projectiles.Count - 1; j >= 0; j--)
                 {
-                    if (i == j || projectiles[i].Owner == projectiles[j].Owner) continue;
+                    if (i >= projectiles.Count || j >= projectiles.Count || i == j || projectiles[i].Owner == projectiles[j].Owner) continue;
 
                     Projectile otherProjectile = projectiles[j];
                     if (IsColliding(projectile.Position, otherProjectile.Position))
@@ -120,22 +120,22 @@ class Program
                             (projectile.Type == "Paper" && otherProjectile.Type == "Rock"))
                         {
                             // Winner projectile passes through the loser
-                            DestroyProjectile(projectile.Type == "Rock" && otherProjectile.Type == "Scissors"
-                                              || projectile.Type == "Scissors" && otherProjectile.Type == "Paper"
-                                              || projectile.Type == "Paper" && otherProjectile.Type == "Rock" ? j : i);
+                            DestroyProjectile(j);
                         }
                         else
                         {
                             // Projectiles of the same type or Rock-Rock, Paper-Paper, Scissors-Scissors collisions
                             DestroyProjectile(i);
-                            DestroyProjectile(j);
+                            break;
                         }
-                        break;
                     }
                 }
             }
         }
     }
+
+
+
 
 
     private static bool IsColliding(Vector2 pos1, Vector2 pos2)
